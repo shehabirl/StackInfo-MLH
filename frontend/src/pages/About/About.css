@@ -1,0 +1,15 @@
+.stackinfo-history{
+    background-color: var(--main-color-1-dark);
+    color: white;
+    border: var(--main-border-size) solid black;
+    padding: 50px 50px;
+    text-align: center;
+}
+.stackinfo-about-title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.stackinfo-team{
+    
+}

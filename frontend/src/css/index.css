@@ -1,0 +1,133 @@
+/*********************** Start Main Utilities ***********************/
+:root{
+  --main-color-1: #8b5cf6;
+  --main-color-1-dark: #5c18f7;
+  --main-color-1-dark-hover: #4512bc;
+  --main-color-2: #f472b6;
+  --main-color-2-dark: #fd2f9b;
+  --font-color-light: white;
+  --font-color-dark: #222429;
+  --background-color-dark: #222429;
+  --background-color-light: #E6E6E6;
+  --main-linear-gradient: linear-gradient(90deg, rgba(139,92,246,1) 0%, rgba(244,114,182,1) 50%, rgba(244,129,129,1) 100%);
+  --text-hover-transition: all 0.5s ease;
+  --main-border-size: 5px;
+}
+*{
+  font-family:'Teko', sans-serif;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+p,a{
+  font-family: 'Rubik', sans-serif;
+  font-size: 16px;
+}
+@media (max-width:600px) {
+  h1{
+    font-size: 2rem !important;
+  }
+}
+@media (min-width:600px) {
+  h1{
+    font-size: 2.25rem !important;
+  }
+}
+@media (min-width: 768px) {
+  h1{
+    font-size: 2.5rem !important;
+  }
+}
+@media (min-width:992px) {
+  h1{
+    font-size: 2.75rem !important;
+  }
+}
+@media (min-width: 1200px) {
+  h1{
+    font-size: 3.2rem !important;
+  }
+}
+@media (min-width: 1201px) {
+  h1{
+    font-size: 3.2rem !important;
+  }
+}
+.main-color-1-light{
+  color: var(--main-color-1);
+}
+.main-color-2{
+  color: var(--main-color-2);
+}
+.main-color-1-dark{
+  color: var(--main-color-1-dark);
+}
+.box-shadow{
+  box-shadow: 1px 10px 21px 0px rgba(34,36,41,0.26);
+  -webkit-box-shadow: 1px 10px 21px 0px rgba(34,36,41,0.26);
+  -moz-box-shadow: 1px 10px 21px 0px rgba(34,36,41,0.26);
+}
+.main-linear-gradient{
+  background-repeat: no-repeat;
+  background-position: top right;
+  z-index: 1;
+  background: var(--main-linear-gradient);
+}
+
+.rubik-font{
+  font-family: 'Rubik', sans-serif !important;
+}
+/* -- Blockquote custom css -- */
+blockquote.EN {
+  background:
+  linear-gradient(to right, var(--main-color-1-dark) 4px, transparent 4px) 0 100%,
+  linear-gradient(to left, var(--main-color-1-dark) 4px, transparent 4px) 100% 0,
+  linear-gradient(to bottom, var(--main-color-1-dark) 4px, transparent 4px) 100% 0,
+  linear-gradient(to top, var(--main-color-1-dark) 4px, transparent 4px) 0 100%;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+blockquote.quote {
+  position: relative; 
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 80%;  /* create space for the quotes */
+  color: #484748;
+  margin: 1rem auto 2rem;
+}
+/* -- create the quotation marks -- */
+blockquote.quote:before,
+blockquote.quote:after{
+    position: absolute;
+    color: var(--main-color-1-dark);
+    font-size: 34px;
+}
+
+blockquote.EN:before{
+    content: "👉";
+    top: -12px;
+    margin-right: -20px;
+    right: 100%;
+
+}
+blockquote.EN:after{
+    content: "👈";
+    margin-left: -20px;
+    left: 100%;
+    top: auto;
+    bottom: -20px;
+
+}
+
+/*********************** End Main Utilities ***********************/
+

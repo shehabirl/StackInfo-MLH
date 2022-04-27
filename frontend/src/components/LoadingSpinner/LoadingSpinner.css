@@ -1,0 +1,10 @@
+
+
+/*********************** Start Spinner ***********************/
+.spinner-border{
+    height:5rem !important;
+    width: 5rem !important;
+    margin: auto;
+    color: var(--main-color-1-dark) !important;
+  }
+  /*********************** End Spinner ***********************/

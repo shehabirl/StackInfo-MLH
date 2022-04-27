@@ -1,0 +1,24 @@
+
+
+.search-form {
+    margin: 5px 5px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.search-form button, .filter-form button{
+    border: 1px solid #ced4da;
+}
+.search-form button:hover, .filter-form button:hover{
+    background-color: var(--main-color-1-dark);
+    color: white;
+}
+.search-form i{
+    line-height: 0;
+}
+
+.basic-multi-select, .filter-form button{
+    margin-top:5px;
+}
+.filter-form button{
+    flex-basis: 20%;
+    font-size: 15px
+}

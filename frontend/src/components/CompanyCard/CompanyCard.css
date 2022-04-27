@@ -1,0 +1,62 @@
+/*********************** Start Company Card ***********************/
+
+.company-card-logo-wrapper{
+    max-width: 75%;
+    margin: auto;
+    display: block;
+    max-height: 100px
+  }
+  .company-card-link-light{
+    text-decoration-color: var(--font-color-light);
+    -moz-text-decoration-color: var(--font-color-light);
+    transition: var(--text-hover-transition) ;
+    -webkit-transition: var(--text-hover-transition) ;
+    -moz-transition: var(--text-hover-transition) ;
+    -ms-transition: var(--text-hover-transition) ;
+    -o-transition: var(--text-hover-transition) ;
+    -moz-text-decoration-color: var(--font-color-light);
+  }
+  
+  .company-card-link-dark{
+    text-decoration-color: var(--font-color-dark);
+    -moz-text-decoration-color: var(--font-color-dark);
+    transition: var(--text-hover-transition) ;
+    -webkit-transition: var(--text-hover-transition) ;
+    -moz-transition: var(--text-hover-transition) ;
+    -ms-transition: var(--text-hover-transition) ;
+    -o-transition: var(--text-hover-transition) ;
+    -moz-text-decoration-color: var(--font-color-dark);
+  }
+  .company-card-link-dark:hover, .company-card-link-light:hover{
+    text-decoration-color: var(--main-color-1-dark);
+    -moz-text-decoration-color: var(--main-color-1-dark);
+}
+  
+  .company-card .card-header{
+    background-color: transparent;
+    border: none;
+    max-height: 70%;
+  }
+  .company-card .card-footer{
+  background-color: transparent;
+  border: none;
+  }
+  .company-card .card-footer .list-group{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  }
+  /*TODO Change rem values in pixel according to screen sizes*/
+  .stack-icon{
+    font-size:3rem;
+    padding:0 1px;
+  }
+  @media (max-width: 768px) {
+    .stack-icon{
+      font-size:1.8rem;
+    }
+  }
+  /*********************** End Company Card ***********************/
+  
