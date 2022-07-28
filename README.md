@@ -2,7 +2,7 @@
 Stack Info  
 </h1>
 <strong>
-Showing my StackInfo project as a code sample for MLH Prep program 2022.
+Showing my StackInfo project as a code sample for MLH Fellowship program 2022.
   
 Please if you see this message, consider that this project is owned to [ShehabAdel](https://www.github.com/shehabadel) 
 
