@@ -2,7 +2,7 @@
 Stack Info  
 </h1>
 <strong>
-Showing my StackInfo project as a code sample for MLH Fellowship program 2022.
+Showing my Stack Info project as a code sample for MLH Fellowship program 2022.
   
 Please if you see this message, consider that this project is owned to [ShehabAdel](https://www.github.com/shehabadel) 
 
@@ -11,6 +11,7 @@ This project is private on my [main account](https://www.github.com/shehabadel) 
 Stack Info allows you to explore and find tech stacks used by startups and corporates in EMEA 🌠💻
 </p>
 
+## You can visit it here live! [Stack Info](https://stackinfo.me)
 <hr>
 
 ## Frameworks, Libraries, and Third Parties used
