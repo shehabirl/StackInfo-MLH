@@ -6,7 +6,7 @@ Showing my Stack Info project as a code sample for MLH Fellowship program 2023.
   
 Please if you see this message, consider that this project is owned to [ShehabAdel](https://www.github.com/shehabadel) 
 
-This project is private on my [main account](https://www.github.com/shehabadel) for some personal reasons. I had to create a new account in order to upload it for the code sample requirement by MLH Prep Program. Any further more information needed, can be submitted on request.</strong>
+This project is private on my [main account](https://www.github.com/shehabadel) for some personal reasons. I had to create a new account in order to upload it for the code sample requirement by MLH Program. Any further more information needed, can be submitted on request.</strong>
 <p align="center">
 Stack Info allows you to explore and find tech stacks used by startups and corporates in EMEA 🌠💻
 </p>
